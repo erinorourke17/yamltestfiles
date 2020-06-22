@@ -1,0 +1,13 @@
+https://raw.githubusercontent.com/erinorourke17/yamltestfiles/master/invalidCTs/allowed-users-missing-api%20version.yaml
+https://raw.githubusercontent.com/erinorourke17/yamltestfiles/master/invalidCTs/allowed-users-missing-kind.yaml
+https://raw.githubusercontent.com/erinorourke17/yamltestfiles/master/invalidCTs/allowed-users-missing-metadata-name.yaml
+https://raw.githubusercontent.com/erinorourke17/yamltestfiles/master/invalidCTs/allowed-users-missing-metadata.yaml
+https://raw.githubusercontent.com/erinorourke17/yamltestfiles/master/invalidCTs/allowed-users-missing-spec-crd-spec-validation-openAPIv3schema-properties.yaml
+https://raw.githubusercontent.com/erinorourke17/yamltestfiles/master/invalidCTs/allowed-users-missing-spec-crd-spec-validation-openAPIv3schema.yaml
+https://raw.githubusercontent.com/erinorourke17/yamltestfiles/master/invalidCTs/allowed-users-missing-spec-crd-spec-validation.yaml
+https://raw.githubusercontent.com/erinorourke17/yamltestfiles/master/invalidCTs/allowed-users-missing-spec-crd-spec.yaml
+https://raw.githubusercontent.com/erinorourke17/yamltestfiles/master/invalidCTs/allowed-users-missing-spec-crd.yaml
+https://raw.githubusercontent.com/erinorourke17/yamltestfiles/master/invalidCTs/allowed-users-missing-spec-targets-rego.yaml
+https://raw.githubusercontent.com/erinorourke17/yamltestfiles/master/invalidCTs/allowed-users-missing-spec-targets-target.yaml
+https://raw.githubusercontent.com/erinorourke17/yamltestfiles/master/invalidCTs/allowed-users-missing-spec-targets.yaml
+https://raw.githubusercontent.com/erinorourke17/yamltestfiles/master/invalidCTs/allowed-users-missing-spec.yaml
