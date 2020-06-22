@@ -3,5 +3,4 @@ kind: ConstraintTemplate
 metadata:
   name: k8sazureallowedusers
 spec:
-  crd:
     
