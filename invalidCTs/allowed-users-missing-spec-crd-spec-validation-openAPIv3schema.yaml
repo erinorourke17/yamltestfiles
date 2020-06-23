@@ -1,4 +1,4 @@
-noteapiVersion: templates.gatekeeper.sh/v1beta1
+apiVersion: templates.gatekeeper.sh/v1beta1
 kind: ConstraintTemplate
 metadata:
   name: k8sazureallowedusers
@@ -8,7 +8,7 @@ spec:
       names:
         kind: K8sAzureAllowedUsers
       validation:
-
+        
   targets:
     - target: admission.k8s.gatekeeper.sh
       rego: |
