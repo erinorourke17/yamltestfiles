@@ -1,0 +1,26 @@
+https://raw.githubusercontent.com/erinorourke17/yamltestfiles/master/invalidCTs/allowed-users-missing-api%20version.yaml
+	- System.Collections.Generic.KeyNotFoundException
+https://raw.githubusercontent.com/erinorourke17/yamltestfiles/master/invalidCTs/allowed-users-missing-kind.yaml
+	- System.Collections.Generic.KeyNotFoundException
+https://raw.githubusercontent.com/erinorourke17/yamltestfiles/master/invalidCTs/allowed-users-missing-metadata-name.yaml
+	- Returns 200 because I don't think I'm validating metadata atm
+https://raw.githubusercontent.com/erinorourke17/yamltestfiles/master/invalidCTs/allowed-users-missing-metadata.yaml
+	- Microsoft.Rest.ValidationException: 'Metadata' cannot be null -- I like this one
+https://raw.githubusercontent.com/erinorourke17/yamltestfiles/master/invalidCTs/allowed-users-missing-spec-crd-spec-validation-openAPIv3schema-properties.yaml
+	- Microsoft.Rest.ValidationException: 'Open APIv3 Schema' cannot be null -- should be more specific and say properties
+https://raw.githubusercontent.com/erinorourke17/yamltestfiles/master/invalidCTs/allowed-users-missing-spec-crd-spec-validation-openAPIv3schema.yaml
+	- Same as above-- but actually correct in this case 	
+https://raw.githubusercontent.com/erinorourke17/yamltestfiles/master/invalidCTs/allowed-users-missing-spec-crd-spec-validation.yaml
+	- Returns 200 as well-- why am I not validating this?
+https://raw.githubusercontent.com/erinorourke17/yamltestfiles/master/invalidCTs/allowed-users-missing-spec-crd-spec.yaml
+	- Microsoft.Rest.ValidationException: Spec cannot be null
+https://raw.githubusercontent.com/erinorourke17/yamltestfiles/master/invalidCTs/allowed-users-missing-spec-crd.yaml
+	- Microsoft.Rest.ValidationException: Crd cannot be null-- maybe capitalize this?
+https://raw.githubusercontent.com/erinorourke17/yamltestfiles/master/invalidCTs/allowed-users-missing-spec-targets-rego.yaml
+	- Microsoft.Rest.ValidationException: Rego cannot be null
+https://raw.githubusercontent.com/erinorourke17/yamltestfiles/master/invalidCTs/allowed-users-missing-spec-targets-target.yaml
+	- Microsoft.Rest.ValidationException: Target cannot be null
+https://raw.githubusercontent.com/erinorourke17/yamltestfiles/master/invalidCTs/allowed-users-missing-spec-targets.yaml
+	- Microsoft.Rest.ValidationException: Target cannot be null
+https://raw.githubusercontent.com/erinorourke17/yamltestfiles/master/invalidCTs/allowed-users-missing-spec.yaml
+	- Microsoft.Rest.ValidationException: Spec cannot be null
