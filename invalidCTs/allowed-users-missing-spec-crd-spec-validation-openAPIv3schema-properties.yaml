@@ -9,7 +9,7 @@ spec:
         kind: K8sAzureAllowedUsers
       validation:
         openAPIV3Schema:
-	  properties:         
+          properties:     
   targets:
     - target: admission.k8s.gatekeeper.sh
       rego: |
